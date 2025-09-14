@@ -11,6 +11,7 @@
 * deleteOne(), deleteMany()
 * Upserts (update + insert in one)
 * populate();
+
 🟢 3. Data Modeling
 * Embedding vs Referencing (when to use which)
 * One-to-One, One-to-Many, Many-to-Many relationships in MongoDB
