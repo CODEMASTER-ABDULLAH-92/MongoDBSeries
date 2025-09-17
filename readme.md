@@ -15,13 +15,14 @@
 🟢 3. Data Modeling
 * Embedding vs Referencing (when to use which)
 * One-to-One, One-to-Many, Many-to-Many relationships in MongoDB
-* Schema design patterns (Bucket Pattern, Outlier Pattern, Extended Reference Pattern)
+<!-- * Schema design patterns (Bucket Pattern, Outlier Pattern, Extended Reference Pattern) Pending  -->
 
 🟢 4. Indexing
 * Single-field, Compound, and Multikey Indexes
-* Text Indexes, Partial Indexes, Sparse Indexes
+<!-- * Text Indexes, Partial Indexes, Sparse Indexes (Pending) -->
 * explain() to analyze query performance
 * When to use indexes (and when NOT to)
+
 
 🟢 5. Aggregation Framework
 * $match, $group, $sort, $project, $lookup (joins)
