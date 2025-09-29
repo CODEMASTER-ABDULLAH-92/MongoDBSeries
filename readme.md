@@ -56,3 +56,38 @@
 * Time Series Collections
 * TTL Indexes (auto-expiring documents)
 * Schema validation with JSON Schema
+
+
+Create the db 
+```
+use db_name
+```
+
+Create the Collection 
+```
+db.createCollection(collection_name)
+```
+---
+
+
+Show the db 
+```
+show dbs
+```
+
+shows the Collections 
+```
+show collections
+```
+---
+Delete or drop the Collection or database
+
+Delete The Collection
+```
+collection_name.drop()
+```
+
+Delete The Database
+```
+db.dropDatabase()
+```
