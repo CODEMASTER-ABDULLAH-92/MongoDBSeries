@@ -91,3 +91,44 @@ Delete The Database
 ```
 db.dropDatabase()
 ```
+## CRUD OP
+---
+*Insert Operation*
+```
+db.users.insertOne({name:"abdullah"})
+```
+*InsertMany* 
+```
+db.users.insertMany([{name:"rajab"},{name:"abdullah2"}])
+
+```
+
+## Read
+Read only one colume
+```
+db.users.find({},{name:1,_id:0})
+```
+Find the specific name
+```
+db.users.find({name:"abdullah"})
+```
+
+```
+db.user.find({ "orders.shippingAddress.city": "Multan" })
+```
+
+
+## UPdate the 
+update One 
+UPdate the many
+```
+db.user.updateMany({},{$set:{color:"Red"}})
+```
+Update One 
+```
+db.user.updateOne(
+...   { name: "Ali Raza" },
+...   { $set: { name: "Ali Raza2" } }
+... );
+```
+- update the single Element of the Array
